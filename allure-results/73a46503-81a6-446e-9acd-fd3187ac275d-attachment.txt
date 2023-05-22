@@ -1,0 +1,169 @@
+[INFO ] 2023-05-22 19:35:31.118 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                                   Powered by SHAFT Engine v7.2.20230505_ALPHA                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-05-22 19:35:32.581 [main] ReportManager - Loaded OpenCV "opencv_java470".
+[INFO ] 2023-05-22 19:35:32.582 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-05-22 19:35:32.799 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-05-22 19:35:33.277 [main] ReportManager - Initializing Important Links...
+[ERROR] 2023-05-22 19:35:33.284 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2023-05-22 19:35:33.288 [main] ReportManager - Initializing Properties...
+[ERROR] 2023-05-22 19:35:33.317 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2023-05-22 19:35:33.319 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2023-05-22 19:35:33.322 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2023-05-22 19:35:33.325 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2023-05-22 19:35:33.738 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "/D:/Automation Projects/Manage And Control Automation UI/Manage And Control Automation UI/src/test/resources/features/userlogin.feature"".
+[INFO ] 2023-05-22 19:35:33.739 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "/D:/Automation Projects/Manage And Control Automation UI/Manage And Control Automation UI/src/test/resources/features/userlogin.feature"".
+[INFO ] 2023-05-22 19:35:33.740 [main] ReportManager - File Action "ReadFile" successfully performed. With the following test data "File Path: "D:\Automation Projects\Manage And Control Automation UI\Manage And Control Automation UI\src\test\resources\features\userlogin.feature"".
+[INFO ] 2023-05-22 19:35:33.934 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                     Starting Execution: '1 out of 3' scenarios in the 'user login' feature                                     
+                                 Scenario Name: 'Validate that user can access dashboard with valid credentials'                                 
+                                                                 Scenario Steps:                                                                 
+                                                           Given User is in login page                                                           
+                                                       And User enters his account number                                                       
+                                                            And User enters his email                                                            
+                                                          And User enters his password                                                          
+                                                         And User clicks on login button                                                         
+                                                 Then User directs successfully to the dashboard                                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-05-22 19:35:34.037 [main] ReportManager - Setting "targetOperatingSystem" property with "WINDOWS".
+[INFO ] 2023-05-22 19:35:34.045 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"".
+[INFO ] 2023-05-22 19:35:34.047 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"".
+[INFO ] 2023-05-22 19:35:34.058 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"".
+[INFO ] 2023-05-22 19:35:34.060 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"".
+[INFO ] 2023-05-22 19:35:34.075 [main] ReportManager - Attempting to run locally on: "WINDOWS | Chrome".
+[INFO ] 2023-05-22 19:35:34.078 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-05-22 19:35:34.779 [main] ResolutionCache - Resolution chrome=113 in cache (valid until 20:33:12 22/05/2023 EET)
+[DEBUG] 2023-05-22 19:35:34.781 [main] ResolutionCache - Resolution chrome113=113.0.5672.63 in cache (valid until 19:33:12 23/05/2023 EET)
+[INFO ] 2023-05-22 19:35:34.782 [main] WebDriverManager - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[DEBUG] 2023-05-22 19:35:34.808 [main] WebDriverManager - Driver chromedriver 113.0.5672.63 found in cache
+[INFO ] 2023-05-22 19:35:34.810 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Foodics\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[WARN ] 2023-05-22 19:35:35.256 [Exec Stream Pumper] ReportManager - Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 21387
+[WARN ] 2023-05-22 19:35:35.257 [Exec Stream Pumper] ReportManager - Only local connections are allowed.
+[WARN ] 2023-05-22 19:35:35.258 [Exec Stream Pumper] ReportManager - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[WARN ] 2023-05-22 19:35:35.269 [Exec Stream Pumper] ReportManager - ChromeDriver was started successfully.
+[WARN ] 2023-05-22 19:35:36.539 [main] ReportManager - May 22, 2023 7:35:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-05-22 19:35:36.540 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 113, so returning the closest version found: 112
+[INFO ] 2023-05-22 19:35:36.565 [main] ReportManager - Successfully Opened: "WINDOWS | Chrome".
+[INFO ] 2023-05-22 19:35:36.627 [main] ReportManager - Target URL: "https://console.foodics.dev/"
+[INFO ] 2023-05-22 19:35:36.918 [main] ReportManager - Navigate to url "https://console.foodics.dev/".
+[INFO ] 2023-05-22 19:35:56.349 [main] ReportManager - Get text "Login To Your Account" from "Login To Your Account".
+[INFO ] 2023-05-22 19:35:56.350 [main] ReportManager - Expected "Login To Your Account", and actual "Login To Your Account"
+[INFO ] 2023-05-22 19:36:00.545 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Login To Your Account' for the 'text' attribute, element locator 'By.xpath: //a[text()='Login To Your Account']'" and Actual "Login To Your Account". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-05-22 19:36:00.554 [main] ReportManager - Successfully created attachment 'Screenshot - 1684776958831_Validate_that_user_can_access_dashboard_with_valid_credentials_ValidateElementAttribute_passed'
+[INFO ] 2023-05-22 19:36:01.487 [main] ReportManager - Type "313087" into "123456".
+[INFO ] 2023-05-22 19:36:01.801 [main] ReportManager - Type "K.adel@foodics.com" into "address@foodics.com".
+[INFO ] 2023-05-22 19:36:02.101 [main] ReportManager - Type "Foodics@123" into "By.name: password".
+[INFO ] 2023-05-22 19:36:02.456 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-05-22 19:36:02.591 [main] ReportManager - Click "Log In".
+[INFO ] 2023-05-22 19:36:12.411 [main] ReportManager - Get text "Welcome, Kholoud" from "Welcome, Kholoud".
+[INFO ] 2023-05-22 19:36:12.412 [main] ReportManager - Expected "End", and actual "Welcome, Kholoud"
+[INFO ] 2023-05-22 19:36:14.057 [main] ReportManager - Assertion "ValidateElementAttribute" FAILED. Expected "Value Should be 'End' for the 'text' attribute, element locator 'By.cssSelector: h1.text-xl'" and Actual "Welcome, Kholoud". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-05-22 19:36:14.064 [main] ReportManager - Successfully created attachment 'Screenshot - 1684776972871_Validate_that_user_can_access_dashboard_with_valid_credentials_ValidateElementAttribute_failed'
+[INFO ] 2023-05-22 19:36:14.066 [main] ReportManager - Successfully created attachment 'Validation Test Data - Failure Reason'
+[INFO ] 2023-05-22 19:36:14.068 [main] ReportManager - Assertion "ValidateElementAttribute" FAILED. Expected "Value Should be 'End' for the 'text' attribute, element locator 'By.cssSelector: h1.text-xl'" and Actual "Welcome, Kholoud". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-05-22 19:36:14.255 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                     Starting Execution: '2 out of 3' scenarios in the 'user login' feature                                     
+                            Scenario Name: 'Validate that user can not access dashboard with invalid account number'                            
+                                                                 Scenario Steps:                                                                 
+                                                           Given User is in login page                                                           
+                                                   And User enters his invalid account number                                                   
+                                                            And User enters his email                                                            
+                                                          And User enters his password                                                          
+                                                         And User clicks on login button                                                         
+                                                    Then User can not access to the dashboard                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-05-22 19:36:14.263 [main] ReportManager - Setting "targetOperatingSystem" property with "WINDOWS".
+[INFO ] 2023-05-22 19:36:14.267 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"".
+[INFO ] 2023-05-22 19:36:14.268 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"".
+[INFO ] 2023-05-22 19:36:14.272 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"".
+[INFO ] 2023-05-22 19:36:14.273 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"".
+[INFO ] 2023-05-22 19:36:14.279 [main] ReportManager - Attempting to run locally on: "WINDOWS | Chrome".
+[INFO ] 2023-05-22 19:36:14.281 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-05-22 19:36:14.309 [main] ResolutionCache - Resolution chrome=113 in cache (valid until 20:33:12 22/05/2023 EET)
+[DEBUG] 2023-05-22 19:36:14.314 [main] ResolutionCache - Resolution chrome113=113.0.5672.63 in cache (valid until 19:33:12 23/05/2023 EET)
+[INFO ] 2023-05-22 19:36:14.314 [main] WebDriverManager - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[DEBUG] 2023-05-22 19:36:14.341 [main] WebDriverManager - Driver chromedriver 113.0.5672.63 found in cache
+[INFO ] 2023-05-22 19:36:14.347 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Foodics\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[WARN ] 2023-05-22 19:36:14.419 [Exec Stream Pumper] ReportManager - Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 10193
+[WARN ] 2023-05-22 19:36:14.419 [Exec Stream Pumper] ReportManager - Only local connections are allowed.
+[WARN ] 2023-05-22 19:36:14.419 [Exec Stream Pumper] ReportManager - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[WARN ] 2023-05-22 19:36:14.425 [Exec Stream Pumper] ReportManager - ChromeDriver was started successfully.
+[WARN ] 2023-05-22 19:36:15.147 [main] ReportManager - May 22, 2023 7:36:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-05-22 19:36:15.150 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 113, so returning the closest version found: 112
+[INFO ] 2023-05-22 19:36:15.152 [main] ReportManager - Successfully Opened: "WINDOWS | Chrome".
+[INFO ] 2023-05-22 19:36:15.184 [main] ReportManager - Target URL: "https://console.foodics.dev/"
+[INFO ] 2023-05-22 19:36:19.229 [main] ReportManager - Navigate to url "https://console.foodics.dev/".
+[INFO ] 2023-05-22 19:36:19.501 [main] ReportManager - Get text "Login To Your Account" from "Login To Your Account".
+[INFO ] 2023-05-22 19:36:19.503 [main] ReportManager - Expected "Login To Your Account", and actual "Login To Your Account"
+[INFO ] 2023-05-22 19:36:21.093 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Login To Your Account' for the 'text' attribute, element locator 'By.xpath: //a[text()='Login To Your Account']'" and Actual "Login To Your Account". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-05-22 19:36:21.095 [main] ReportManager - Successfully created attachment 'Screenshot - 1684776980101_Validate_that_user_can_not_access_dashboard_with_invalid_account_number_ValidateElementAttribute_passed'
+[INFO ] 2023-05-22 19:36:21.341 [main] ReportManager - Type "888888" into "123456".
+[INFO ] 2023-05-22 19:36:21.342 [main] ReportManager - kholoudddddddd
+[INFO ] 2023-05-22 19:36:21.784 [main] ReportManager - Type "K.adel@foodics.com" into "address@foodics.com".
+[INFO ] 2023-05-22 19:36:22.102 [main] ReportManager - Type "Foodics@123" into "By.name: password".
+[INFO ] 2023-05-22 19:36:22.391 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-05-22 19:36:22.514 [main] ReportManager - Click "Log In".
+[INFO ] 2023-05-22 19:36:25.217 [main] ReportManager - Get text "Invalid Credentials!" from "By.cssSelector: div.w-full.p-4".
+[INFO ] 2023-05-22 19:36:25.218 [main] ReportManager - Expected "Invalid Credentials!", and actual "Invalid Credentials!"
+[INFO ] 2023-05-22 19:36:26.614 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Invalid Credentials!' for the 'text' attribute, element locator 'By.cssSelector: div.w-full.p-4'" and Actual "Invalid Credentials!". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-05-22 19:36:26.617 [main] ReportManager - Successfully created attachment 'Screenshot - 1684776985582_Validate_that_user_can_not_access_dashboard_with_invalid_account_number_ValidateElementAttribute_passed'
+[INFO ] 2023-05-22 19:36:26.629 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                     Starting Execution: '3 out of 3' scenarios in the 'user login' feature                                     
+                                 Scenario Name: 'Validate that user can not access dashboard with invalid email'                                 
+                                                                 Scenario Steps:                                                                 
+                                                           Given User is in login page                                                           
+                                                       And User enters his account number                                                       
+                                                        And User enters his invalid email                                                        
+                                                          And User enters his password                                                          
+                                                         And User clicks on login button                                                         
+                                                    Then User can not access to the dashboard                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-05-22 19:36:26.632 [main] ReportManager - Setting "targetOperatingSystem" property with "WINDOWS".
+[INFO ] 2023-05-22 19:36:26.635 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"".
+[INFO ] 2023-05-22 19:36:26.636 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"".
+[INFO ] 2023-05-22 19:36:26.637 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"".
+[INFO ] 2023-05-22 19:36:26.638 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"".
+[INFO ] 2023-05-22 19:36:26.640 [main] ReportManager - Attempting to run locally on: "WINDOWS | Chrome".
+[INFO ] 2023-05-22 19:36:26.640 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-05-22 19:36:26.658 [main] ResolutionCache - Resolution chrome=113 in cache (valid until 20:33:12 22/05/2023 EET)
+[DEBUG] 2023-05-22 19:36:26.660 [main] ResolutionCache - Resolution chrome113=113.0.5672.63 in cache (valid until 19:33:12 23/05/2023 EET)
+[INFO ] 2023-05-22 19:36:26.660 [main] WebDriverManager - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[DEBUG] 2023-05-22 19:36:26.673 [main] WebDriverManager - Driver chromedriver 113.0.5672.63 found in cache
+[INFO ] 2023-05-22 19:36:26.674 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Foodics\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
+[WARN ] 2023-05-22 19:36:26.721 [Exec Stream Pumper] ReportManager - Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 1217
+[WARN ] 2023-05-22 19:36:26.721 [Exec Stream Pumper] ReportManager - Only local connections are allowed.
+[WARN ] 2023-05-22 19:36:26.721 [Exec Stream Pumper] ReportManager - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[WARN ] 2023-05-22 19:36:26.727 [Exec Stream Pumper] ReportManager - ChromeDriver was started successfully.
+[WARN ] 2023-05-22 19:36:27.326 [main] ReportManager - May 22, 2023 7:36:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-05-22 19:36:27.327 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 113, so returning the closest version found: 112
+[INFO ] 2023-05-22 19:36:27.328 [main] ReportManager - Successfully Opened: "WINDOWS | Chrome".
+[INFO ] 2023-05-22 19:36:27.346 [main] ReportManager - Target URL: "https://console.foodics.dev/"
+[INFO ] 2023-05-22 19:36:31.729 [main] ReportManager - Navigate to url "https://console.foodics.dev/".
+[INFO ] 2023-05-22 19:36:31.891 [main] ReportManager - Get text "Login To Your Account" from "Login To Your Account".
+[INFO ] 2023-05-22 19:36:31.891 [main] ReportManager - Expected "Login To Your Account", and actual "Login To Your Account"
+[INFO ] 2023-05-22 19:36:32.703 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Login To Your Account' for the 'text' attribute, element locator 'By.xpath: //a[text()='Login To Your Account']'" and Actual "Login To Your Account". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-05-22 19:36:32.705 [main] ReportManager - Successfully created attachment 'Screenshot - 1684776992112_Validate_that_user_can_not_access_dashboard_with_invalid_email_ValidateElementAttribute_passed'
+[INFO ] 2023-05-22 19:36:32.842 [main] ReportManager - Type "313087" into "123456".
+[INFO ] 2023-05-22 19:36:33.017 [main] ReportManager - Type "K.adel@yahoo.com" into "address@foodics.com".
+[INFO ] 2023-05-22 19:36:33.167 [main] ReportManager - Type "Foodics@123" into "By.name: password".
+[INFO ] 2023-05-22 19:36:33.357 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-05-22 19:36:33.405 [main] ReportManager - Click "Log In".
+[INFO ] 2023-05-22 19:36:35.700 [main] ReportManager - Get text "Invalid Credentials!" from "By.cssSelector: div.w-full.p-4".
+[INFO ] 2023-05-22 19:36:35.700 [main] ReportManager - Expected "Invalid Credentials!", and actual "Invalid Credentials!"
+[INFO ] 2023-05-22 19:36:36.371 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Invalid Credentials!' for the 'text' attribute, element locator 'By.cssSelector: div.w-full.p-4'" and Actual "Invalid Credentials!". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-05-22 19:36:36.373 [main] ReportManager - Successfully created attachment 'Screenshot - 1684776995963_Validate_that_user_can_not_access_dashboard_with_invalid_email_ValidateElementAttribute_passed'
+[ERROR] 2023-05-22 19:36:36.467 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2023-05-22 19:36:36.469 [main] ReportManager - Successfully created attachment 'Final Page Snapshot - Validate_that_user_can_not_access_dashboard_with_invalid_email'
+[INFO ] 2023-05-22 19:36:36.785 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2023-05-22 19:36:36.785 [main] ReportManager - Driver is already closed.
+[INFO ] 2023-05-22 19:36:36.785 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-05-22 19:36:36.786 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-05-22 19:36:36.786 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".
