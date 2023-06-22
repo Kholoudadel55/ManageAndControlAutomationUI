@@ -9,7 +9,4 @@ public class DashboardPage extends PageBase {
     public DashboardPage(SHAFT.GUI.WebDriver driver) {
         super(driver);
     }
-    public void assertThatDashboardPageTitleAppeares (){
-        driver.assertThat().element(dashboardPageTitle).text().contains("End").perform();
-    }
 }

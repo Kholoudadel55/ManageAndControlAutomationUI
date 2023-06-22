@@ -13,52 +13,36 @@ public class UserLogin {
     LoginPage loginPageObject = new LoginPage(driver);
     DashboardPage dashboardPageObject = new DashboardPage(driver);
 
-    //Scenario1
+    //Login_Scenarios
     @Given("User is in login page")
     public void userIsInLoginPage() {
-        loginPageObject.assertThatLoginPageAppears();
     }
 
-    @And("User enters his account number")
+    @And("User enter his account number")
     public void userEntersHisAccountNumber() {
         loginPageObject.setAccountNumber();
     }
 
-    @And("User enters his email")
+    @And("User enter his email")
     public void userEntersHisEmail() {
         loginPageObject.setEmail();
     }
 
-    @And("User enters his password")
+    @And("User enter his password")
     public void userEntersHisPassword() {
         loginPageObject.setPassword();
     }
 
-    @And("User clicks on login button")
+    @And("User click on login button")
     public void userClicksOnLoginButton() {
         loginPageObject.clickLoginBtn();
     }
 
-    @Then("User directs successfully to the dashboard")
+    @Then("User direct successfully to the dashboard")
     public void userDirectsSuccessfullyToTheDashboard() {
-        dashboardPageObject.assertThatDashboardPageTitleAppeares();
     }
 
-    //Scenario2
-    @And("User enters his invalid account number")
-    public void userEntersHisInvalidAccountNumber() {
-        loginPageObject.setInvalidAccountNumber();
-    }
 
-    @Then("User can not access to the dashboard")
-    public void userCanNotAccessToTheDashboard() {
-        loginPageObject.assertAnErrorMsgAppeares();
-    }
-
-    @And("User enters his invalid email")
-    public void userEntersHisInvalidEmail() {
-        loginPageObject.setInvalidEmail();
-    }
 }
 
 

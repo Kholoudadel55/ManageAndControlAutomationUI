@@ -6,9 +6,6 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class ExampleSteps {
-    @Given("aaaa")
-    public void aaa(){}
-
     @Given("user is in login page")
     public void userIsInLoginPage() {
     }

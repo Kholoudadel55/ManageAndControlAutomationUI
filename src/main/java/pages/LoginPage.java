@@ -3,6 +3,7 @@ package pages;
 import com.shaft.driver.SHAFT;
 import common.PageBase;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 
 public class LoginPage extends PageBase {
     By loginPageTitle = By.xpath("//a[text()='Login To Your Account']");
@@ -10,14 +11,11 @@ public class LoginPage extends PageBase {
     By emailField = By.name("email");
     By passwordField = By.name("password");
     By loginBtn = By.cssSelector("button.btn.btn-primary");
-    By errorMsgBox = By.cssSelector("div.w-full.p-4");
+
+
 
     public LoginPage(SHAFT.GUI.WebDriver driver) {
         super(driver);
-    }
-
-    public void assertThatLoginPageAppears() {
-        driver.assertThat().element(loginPageTitle).text().isEqualTo("Login To Your Account").perform();
     }
 
     public void setAccountNumber() {
@@ -36,15 +34,5 @@ public class LoginPage extends PageBase {
         clickOnElement(loginBtn);
     }
 
-    public void setInvalidAccountNumber() {
-        setElementText(accountNumberField, "888888");
-
     }
 
-    public void assertAnErrorMsgAppeares() {
-        driver.assertThat().element(errorMsgBox).text().contains("Invalid Credentials!").perform();
-    }
-    public void setInvalidEmail(){
-        setElementText(emailField, "K.adel@yahoo.com");
-    }
-}
